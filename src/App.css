@@ -5,3 +5,80 @@
   text-align: center;
 }
 
+/* Styles for Calculator component */
+.calculator-container {
+  width: 350px;
+  height: 450px;
+  margin: 0 auto;
+  border: 2px solid #ccc;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.screen {
+  border: 5px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 91/8%;
+  text-align: right;
+  font-size: 24px;
+  height: 50px;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(2, 4fr);
+  grid-gap: 10px;
+  align-items: center;
+}
+
+.operator-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.num {
+  margin: 2px;
+  font-size: 15px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.operator {
+  margin: 2px;
+  width: 50px;
+  font-size: 10px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.button:hover {
+  background-color: #f0f0f0;
+}
+
+.equal {
+  background-color: #ff9800;
+  color: white;
+}
+
+.equal:hover {
+  background-color: #f57c00;
+}
+
+.clear-button {
+  background-color: #e57373;
+  color: white;
+}
+
+.clear-button:hover {
+  background-color: #f44336;
+}

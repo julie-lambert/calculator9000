@@ -1,8 +1,7 @@
 function BeautifulScreen(props){
     return(
         <div className="screen">
-            <input type="text" value= {props.operation} readOnly/>
-            <input type="text" value={props.result} readOnly/>
+           <p>{props.displayOperation}</p>
         </div>
     )
 }
